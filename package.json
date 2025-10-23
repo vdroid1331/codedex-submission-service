@@ -1,0 +1,25 @@
+{
+  "name": "codedex-submission-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "axios": "^1.12.2",
+    "bullmq": "^5.61.0",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.6.1",
+    "fastify-plugin": "^5.1.0",
+    "http-status-codes": "^2.3.0",
+    "ioredis": "^5.8.2",
+    "mongoose": "^8.19.2",
+    "nodemon": "^3.1.10"
+  }
+}
